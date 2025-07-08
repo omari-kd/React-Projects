@@ -1,0 +1,10 @@
+body, .App {
+  background: #1f1e25;
+  /* background: #ffff; */
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the background applies to the entire viewport */
+}
+
+
+
