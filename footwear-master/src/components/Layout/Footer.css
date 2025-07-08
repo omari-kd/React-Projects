@@ -1,0 +1,310 @@
+.footer-container {
+    padding: 60px;
+    margin: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.about-footwear-container{
+    width: 15vw
+}
+
+.about-footwear-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+}
+
+.about-footwear {
+    position: relative;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    width: 13vw;
+    text-align: left;
+     font-family: sans-serif;
+    color: dimgray;
+    font-weight: 300;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    
+}
+
+.social-links-container {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.social-links-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.customer-care-container {
+        width: 15vw;
+}
+.customer-care-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+
+    font-size: 1rem;
+}
+
+.customer-care-links-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.customer-care-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    color: dimgray;
+    font-family: sans-serif;
+}
+
+.information-container{
+       width: 15vw;
+}
+
+.information-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+}
+
+.information-links-container {
+     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.information-link a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    color: dimgray;
+    font-family: sans-serif;
+}
+
+.news-container {
+        width: 10vw;
+}
+
+.news-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+}
+
+.news-links-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.news-link a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    color: dimgray;
+    font-family: sans-serif;
+}
+
+
+.contact-information-container {
+       width: 19vw;
+}
+
+.contact-information-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+}
+
+.contact-information {
+    margin-top: 30px;
+    color: dimgray;
+    font-size: 0.9rem;
+}
+
+.contact-information-number {
+    margin-top: 20px;
+    color: rgb(101, 114, 128);
+    font-size: 0.9rem;
+}
+
+.contact-information-email, .contact-information-website  {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.contact-information-email a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.contact-information-website a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: dimgray;
+}
+
+.copyright-container a {
+    text-decoration: none;
+    color: dimgray;
+    
+}
+
+
+/* Responsive Design */
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 479px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 5%;
+        width: 90vw;
+        position: relative;
+        /* border: 2px solid red; */
+    }
+
+    .about-footwear-container, .customer-care-container, .information-container, .news-container, .contact-information-container{
+        width: 85vw;
+    }
+
+    .about-footwear {
+        width: 85vw;
+    }
+    
+    .copyright-container {
+        padding-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright-container a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+}
+
+/* Small devices  (phones , 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+        margin: 2%;
+        width: 90vw;
+        /* border: 2px solid red; */
+    }
+
+    .about-footwear-container, .customer-care-container, .information-container, .news-container, .contact-information-container{
+        width: 85vw;
+    }
+
+    .about-footwear {
+        width: 85vw;
+    }
+    
+    .copyright-container {
+        padding-top: 30px;
+        font-size: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: justify;
+    }
+
+    .copyright-container a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and  up) */
+@media (min-width: 768px) and (max-width: 991px) {
+       .footer-container {
+        display: flex;
+        padding: 0%;
+        margin: 5%;
+        width: 90vw;
+        /* border: 2px solid red; */
+    }
+
+    .about-footwear-container, .customer-care-container, .information-container, .news-container, .contact-information-container{
+        width: 25vw;
+    }
+
+    .about-footwear {
+        width: 25vw;
+    }
+    
+    .copyright-container {
+        padding-top: 30px;
+        font-size: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: justify;
+    }
+
+    .copyright-container a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

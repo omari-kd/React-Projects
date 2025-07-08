@@ -1,0 +1,58 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #000;
+    font-weight: bolder;
+    width: 75vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+}
+
+
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 479px) {
+.quote-container {
+    margin-top: 20vh;
+    padding: 15px;
+}
+
+.quote-text {
+    font-size: 30px;
+}
+}
+
+
+/* Small devices (phones, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+.quote-container {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-right: 10px;
+}
+
+.quote-text {
+    width: 95vw;
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ .quote-container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.quote-text {
+    width: 100vw;
+}
+}

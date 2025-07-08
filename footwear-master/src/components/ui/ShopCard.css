@@ -1,0 +1,141 @@
+.shop-card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 30px;
+    align-items: center;
+}
+
+.men-image-container img {
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.women-image-container img {
+    width: 650px;
+    height: 500px,;
+    object-fit: cover;
+}
+
+
+.men-image-title, .women-image-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+/* .women-image-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+} */
+
+
+/* Responsive Design */
+/* Extra small devices (phones, less than 480px) */
+@media (max-width: 479px) {
+.shop-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.men-image-container{
+margin-top: 15vh ;
+width: 95vw;
+}
+
+.men-image-container img, .women-image-container img {
+    min-width: 95vw;
+    max-height: 50vh;
+}
+
+.women-image-container{
+width: 95vw;
+}
+
+men-image-title, .women-image-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+}
+
+/* Small devices (phones, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .shop-card-container {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    align-items: center;
+}
+    
+.men-image-container img {
+    max-width: 45vw;
+}
+
+.men-image-title, .women-image-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+   .shop-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.men-image-container img{
+max-width: 45vw;
+}
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1920px){
+    .shop-card-container {
+    gap: 1.5vw;
+}
+
+    .men-image-container img {
+        width: 50vw;
+        height: 50vh;
+    }
+    .women-image-container img{
+        width: 47vw;
+        height: 50vh
+    }
+}
